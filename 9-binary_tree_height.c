@@ -6,13 +6,13 @@
  */
 size_t count(const binary_tree_t *tree)
 {
-       int left_count = 0, right_count = 0;
+	int left_count = 0, right_count = 0;
 
 	if (tree == NULL)
 	{
 		return (-1);
 	}
-	
+
 	left_count = count(tree->left);
 	right_count = count(tree->right);
 
@@ -20,7 +20,7 @@ size_t count(const binary_tree_t *tree)
 	{
 		return (left_count + 1);
 	}
-        else
+	else
 		return (right_count + 1);
 }
 /**
