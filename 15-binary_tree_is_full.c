@@ -1,8 +1,9 @@
 #include "binary_trees.h"
 /**
- *
- *
- * */
+ * is_full - Verify if the tree is full
+ * @tree: Tree to check
+ * Return: count
+ */
 int is_full(const binary_tree_t *tree)
 {
 	int count = 0;
@@ -23,9 +24,10 @@ int is_full(const binary_tree_t *tree)
 }
 
 /**
- *
- *
- * */
+ * binary_tree_is_full - Checks if a tree is full
+ * @tree: Tree to be checked
+ * Return: 1 if is full or 0 if is not
+ */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
 	int result;
