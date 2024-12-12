@@ -31,7 +31,7 @@ size_t count(const binary_tree_t *tree)
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	int right_count = 0, left_count = 0;
-	
+
 	if (tree == NULL)
 		return (0);
 
